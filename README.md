@@ -1,3 +1,20 @@
+# requerientos
+- PHP 8.1+
+- Composer
+- MySQL
+- Laravel 10+
+# todo lo que se trabajo y los pasos que fueron necesarios todos completados correctamente
+
+1php artisan serve (hacer correr el proyecto laravel) 
+php artisan migrate (crea migraciones en mi base de datos (tablas))
+seeder(semilla database)
+2 php artisan db:seed(levantar SEEDER)
+3 php artisan make:migration create_empleados_table(crea una migración ose uana tabla en nuestra base de datos)
+4 php artisan make:seeder EmpleadoSeeder(para crear seeder ahí se agrega datos de los empleados) 
+5 php artisan migrate:fresh –seed(cargas los datos de la migraciones a mi base de datos)
+6 php artisan make:controller EmpleadoController –resource(para crear el controlador con todos sus requisitos delete index etc.)
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
